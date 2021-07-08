@@ -5,7 +5,7 @@ import modulo.ExpoModulo;
 
 public class RSA {
     public static void main(String[] args) {
-        calc(17, 11, 7, 41);
+        calc(17, 11, 7, 88);
     }
 
     public static void calc(int p, int q, int e, int M) {
@@ -39,7 +39,7 @@ public class RSA {
         System.out.println("=> M = " + C);
         System.out.println();
         System.out.println(">> Dung PR de ma hoa: (Chu ky so) => Dung PU de giai ma");
-        System.out.printf("M = C^d mod n = %d^%d mod %d%n", M, e, n);
+        System.out.printf("M = C^e mod n = %d^%d mod %d%n", M, e, n);
         C = ExpoModulo.calc(M, e, n, true);
         System.out.println("=> M = " + C);
         System.out.println();
