@@ -1,12 +1,13 @@
 package modulo;
 
 /**
- * Tính lũy thừa Modulo bằng phương pháp hạ bậc
+ * Tính lũy thừa Modulo bằng phương pháp hạ bậc a^m mod n
+ *
  * @author censodev
  */
 public class ExpoModulo {
     public static void main(String[] args) {
-        calc( 251, 1758, 229, true);
+        calc(251, 1758, 229, true);
     }
 
     public static int calc(int a, int m, int n, boolean isPrint) {

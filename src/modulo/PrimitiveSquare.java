@@ -2,6 +2,7 @@ package modulo;
 
 /**
  * Kiểm tra a có phải căn nguyên thủy của n không
+ *
  * @author censodev
  */
 public class PrimitiveSquare {

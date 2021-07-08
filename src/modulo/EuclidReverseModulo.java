@@ -4,6 +4,7 @@ import java.util.*;
 
 /**
  * Nghịch đảo Modulo bằng phương pháp Euclid mở rộng
+ *
  * @author censodev
  */
 public class EuclidReverseModulo {
@@ -52,7 +53,7 @@ public class EuclidReverseModulo {
         }
 
         int rs = 0;
-        for (Map.Entry<Integer, Integer> entry: mapR.entrySet()) {
+        for (Map.Entry<Integer, Integer> entry : mapR.entrySet()) {
             if (entry.getValue().equals(1)) {
                 rs = mapX.get(entry.getKey());
                 rs = rs > 0 ? rs : rs + n;

@@ -2,6 +2,7 @@ package modulo;
 
 /**
  * Tính Logarit rời rạc log a(b) mod n
+ *
  * @author censodev
  */
 public class DiscreteLogarithm {

@@ -2,6 +2,7 @@ package modulo;
 
 /**
  * Giải hệ phương trình Modulo bằng phương pháp phần dư Trung Hoa
+ *
  * @author censodev
  */
 public class EquationSystemModulo {
