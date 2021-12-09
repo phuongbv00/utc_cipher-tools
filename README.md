@@ -1,9 +1,9 @@
 # Bài tập môn An toàn bảo mật thông tin UTC
 ## Modulo
 * DiscreteLogarithm: Logarit ròi rạc
-* EquationSystemModulo: Hệ phương trình Modulo
+* EquationSystemModulo: Hệ phương trình modulo
 * EuclidReverseModulo: Euclid nghịch đảo
-* ExpoModulo
+* ExpoModulo: Tính lũy thừa modulo bằng phương pháp hạ bậc
 * PrimitiveSquare: Căn nguyên thủy
 
 ## Mã hóa hiện đại
